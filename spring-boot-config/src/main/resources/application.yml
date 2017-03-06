@@ -1,0 +1,9 @@
+server:
+    port: 8080
+
+logging:
+  path: /logs
+  file: myapp.log
+  level:
+    cn.sunxyz: DEBUG
+    org.springframework : DEBUG
