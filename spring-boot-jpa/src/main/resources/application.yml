@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
