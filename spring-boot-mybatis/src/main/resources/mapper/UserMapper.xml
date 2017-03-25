@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 指定工作空间，要与接口名相同，源代码没有去看，猜测应该是通过"这里的namespace.下边方法的id"来定位方法的 -->
+<mapper namespace="cn.sunxyz.mapper.UserMapper">
+    <!-- 若不需要自动返回主键，将useGeneratedKeys="true" keyProperty="id"去掉即可(当然如果不需要自动返回主键，直接用注解即可) -->
+   <insert id="insertUserXml" parameterType="User" keyProperty="id" useGeneratedKeys="true">
+       <![CDATA[
+       INSERT INTO USER
+       (
+           name,
+           password
+       )
+       VALUES
+       (
+           #{name, jdbcType=VARCHAR},
+           #{password, jdbcType=VARCHAR}
+       )
+       ]]>
+   </insert>
+</mapper>
