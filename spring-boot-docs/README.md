@@ -1,5 +1,9 @@
 这是一个通过swagger、Asciidoc、Springfox和Spring Rest Docs 配合asciidoctor-maven-plugin将Asciidoc格式转成HTML5格式生成文档的例子
 
+运行效果：
+
+![运行效果](src\main\resources\springdocs.png)
+
 ##使用时需要以下几步：
 * 导入 pom依赖
 * 配置 swagger
