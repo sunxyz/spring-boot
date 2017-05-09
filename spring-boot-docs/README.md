@@ -2,7 +2,7 @@
 
 运行效果：
 
-![运行效果](src/main/resources/springdocs.png)
+![Spring Rest Docs](src/main/resources/springdocs.png)
 
 ##使用时需要以下几步：
 * 导入 pom依赖
