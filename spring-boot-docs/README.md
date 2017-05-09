@@ -12,3 +12,13 @@
 * 使用 maven 插件 执行打包就可以生成相应的文档
 
 相关细节请参考本示例或官方给出的[示例](https://github.com/asciidoctor/asciidoctor-maven-examples) 
+
+参考资料：
+
+[Spring REST Docs](http://docs.spring.io/spring-restdocs/docs/1.2.0.RELEASE/reference/html5/)
+
+[SpringBoot项目生成RESTfull API的文档](http://www.jianshu.com/p/af7a6f29bf4f)
+
+[Introduction to Spring REST Docs](http://www.baeldung.com/spring-rest-docs)
+
+[asciidoctor-maven-plugin](https://github.com/asciidoctor/asciidoctor-maven-plugin/blob/master/README_zh-CN.adoc)
