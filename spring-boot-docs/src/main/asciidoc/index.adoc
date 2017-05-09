@@ -1,0 +1,25 @@
+= 用 Spring REST Docs 构建文档
+
+这是一个通过swagger、Asciidoc、Springfox和Spring Rest Docs 配合asciidoctor-maven-plugin将Asciidoc格式转成HTML5格式生成的文档 网站地址  http://localhost:8080
+
+swagger地址 http://localhost:8080/swagger-ui.html
+
+include::{generated}/definitions.adoc[]
+
+== 用户接口
+=== 新增用户
+.curl
+include::{snippets}/新增用户/curl-request.adoc[]
+.request
+include::{snippets}/新增用户/http-request.adoc[]
+.response
+include::{snippets}/新增用户/http-response.adoc[]
+=== 查询用户
+.curl
+include::{snippets}/查询用户/curl-request.adoc[]
+.request
+include::{snippets}/查询用户/http-request.adoc[]
+.response
+include::{snippets}/查询用户/http-response.adoc[]
+
+这个例子非常简单，通过单元测试和一些简单的配置就能够得到api文档了。
